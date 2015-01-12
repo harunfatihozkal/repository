@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="336" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="249" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="GUI Programming dersi kapsam&#x131;nda haz&#x131;rlanm&#x131;&#x15f;&#xa;RSS Reader program&#x131;&#xa;    Kullan&#x131;m&#x131;&#xa;    1-Site Ekleme&#xa;        Haberlerini g&#xf6;r&#xfc;nt&#xfc;lemek istedi&#x11f;iniz sitenin rss&#xa;            url ini kopyalay&#x131;n&#xa;        Men&#xfc; bardan &quot;D&#xfc;zenle&quot; k&#x131;sm&#x131;na t&#x131;klay&#x131;p daha&#xa;            sonra &quot;Site Ekle&quot; ye t&#x131;klayarak gerekli &#xa;            alanlara bilgileri giriniz&#xa;        Art&#x131;k yaln&#x131;zca ana ekran&#x131;n sol k&#x131;sm&#x131;ndan&#xa;            sitenize t&#x131;klayarak haberlerinizi rahatl&#x131;kla&#xa;            okuyabilirsiniz&#xa;    2-Haber Kayna&#x11f;&#x131;na gitme&#xa;        Yaln&#x131;zca haber ba&#x15f;l&#x131;&#x11f;&#x131;n&#x131;n alt&#x131;nda &#xe7;&#x131;kan url e&#xa;            t&#x131;klayarak haberi taray&#x131;c&#x131;n&#x131;zdan a&#xe7;abilirsiniz&#xa;    3-Site Silme&#xa;        &quot;D&#xfc;zenle&quot; ye t&#x131;klad&#x131;ktan sonra &quot;Site sil&quot; e t&#x131;klay&#x131;p&#xa;            silmek istedi&#x11f;iniz sitenin ad&#x131;n&#x131; girerek silebilrisiniz&#xa;    4-Haberleri Kaydetme&#xa;        Site listenizin alt&#x131;ndaki &quot;Haberleri Kaydet&quot; butonuna&#xa;            t&#x131;klayarak ekran&#x131;n&#x131;zda g&#xf6;r&#xfc;nt&#xfc;lenen haberleri&#xa;            &quot;haber.txt&quot; dosyan&#x131;n i&#xe7;erisine kaydedebilirsiniz&#xa;    5-Kay&#x131;tl&#x131; Haberleri G&#xf6;r&#xfc;nt&#xfc;leme&#xa;        &quot;Dosya&quot; men&#xfc;s&#xfc;ne t&#x131;klay&#x131;p &quot;A&#xe7;&quot; butonuna t&#x131;klad&#x131;&#x11f;&#x131;n&#x131;zda&#xa;            &quot;haber.txt&quot; nin i&#xe7;erisine daha &#xf6;nce kaydetti&#x11f;iniz&#xa;            haberleri g&#xf6;r&#xfc;nt&#xfc;leyebilirsiniz"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTextArea1.setEditable(false);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
